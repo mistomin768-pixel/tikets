@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0E0E0E;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #dc56c5;
+    height: 122px;
+    width: 589px;
+    margin-top: 40px;
+}
+
+.nav {
+    height: 446px;
+    background-image: url('/tickets/src/assets/pic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-top {
+    display: flex;
+    gap: 200px;
+}
+
+.main-div {
+    margin-left: 173px;
+}
+
+.card-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #dc56c5;
+}
+
+.data-card {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-place {
+
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    width: 195px;
+    justify-content: center;
+}
+
+.search {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 270px;
+    height: 40px;
+}
+
+.search-choose {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #939393;
+    align-items: center;
+}
+
+.choose {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 270px;
+    height: 40px;
+    color: #939393;
+}
+
+.paper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.paper1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-avtor {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #939393;
+}
