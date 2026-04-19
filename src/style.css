@@ -33,6 +33,10 @@ body {
 
 .main-div {
     margin-left: 173px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 181px;
+    gap: 70px;
 }
 
 .card-title {
@@ -56,7 +60,10 @@ body {
     color: #fff;
     text-align: center;
 }
-
+.card-img{
+    width: 180px;
+    height: 227px;
+}
 .card {
     width: 195px;
     justify-content: center;
