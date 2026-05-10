@@ -1,6 +1,6 @@
 /* modal */
 .overlay {
-    display: none;
+    display: block;
     justify-content: center;
     align-items: center;
     
@@ -11,6 +11,17 @@
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 2;
+}
+.paper{
+    cursor: pointer;
+}
+.active-page{
+    border: 1px solid #DC56C5;
+    padding: 5px 12px;
+    color: #DC56C5;
+}
+input{
+    color: white;
 }
 .modal {
     width: 750px;
@@ -70,7 +81,7 @@ align-self: center;
     color: #0e0e0e;
 }
 
-.code {}
+
 
 .modal-box-list-item-buy {
     background: #4c00fe;
